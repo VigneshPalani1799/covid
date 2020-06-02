@@ -1,0 +1,30 @@
+.header-primary{
+    background-color:#0D47A1;
+    color:#fff;
+    font-size: 36px;
+}
+
+.header-primary-variant{
+    background-color:#2196F3;
+}
+
+.row-header{
+    margin-top: 50px;
+}
+
+.home-decoration{
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.row-content{
+    margin-left: 5px;
+}
+
+.footer{
+    background-color:#90CAF9;
+}
