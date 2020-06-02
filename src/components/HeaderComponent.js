@@ -35,6 +35,9 @@ class Header extends Component{
                                 <NavItem>
                                     <Link className="nav-link" to='/tracker' style={{fontSize:"20px"}}><span className="fa fa-info fa-lg"></span>Tracker</Link>
                                 </NavItem>
+                                <NavItem>
+                                    <Link className="nav-link" to='/news' style={{fontSize:"20px"}}><span className="fa fa-info fa-lg">News</span></Link>
+                                </NavItem>
                             </Nav>
                         </Collapse>
                     </div>

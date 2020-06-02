@@ -10,8 +10,9 @@ function Footer(){
                     <div className="col-4 col-sm-2">
                         <h5>Links</h5>
                         <ul className="list-unstyled">
-                            <li><Link to='/home'>Home</Link></li>
-                            <li><Link to='/tracker'>Tracker</Link></li>
+                            <li><Link to = '/home'>Home</Link></li>
+                            <li><Link to = '/tracker'>Tracker</Link></li>
+                            <li><Link to = '/news'>News</Link></li>
                         </ul>
                     </div>
                     <div className="col-7 col-sm-5">
