@@ -96,7 +96,7 @@ class News extends Component{
 
         this.state={
             newsData:[],
-            url:'http://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=f9a846f8e8df4dc1904d9d736262a62c',
+            url:'https://newsapi.org/v2/top-headlines?country=in&category=health&apiKey=f9a846f8e8df4dc1904d9d736262a62c',
             fetched:false,
             error:false,
         };
