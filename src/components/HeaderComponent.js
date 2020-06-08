@@ -26,7 +26,7 @@ class Header extends Component{
                 <Navbar dark expand="md">
                     <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
-                        <NavbarBrand className="mr-auto" href="/">CovidInfo</NavbarBrand>
+                        <NavbarBrand className="ml-2" href="/">CovidInfo</NavbarBrand>
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar>
                                 <NavItem>

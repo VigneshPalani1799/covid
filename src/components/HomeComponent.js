@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 function RenderCard({covidTitle,covidDesc,image}){
     return(
         <Card inverse color="info" outline="primary">
-            <CardImg src={image} style={{filter:"blur(2px)",height:"400px"}}
+            <CardImg src={image} style={{filter:"blur(2px)",height:"420px"}} className="img-fluid"
             />
             <CardImgOverlay>
             <CardTitle style={{fontSize:"26px",color:"#fff"}}>{covidTitle}</CardTitle>

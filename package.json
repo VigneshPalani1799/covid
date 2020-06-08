@@ -1,4 +1,5 @@
 {
+  "homepage": "http://VigneshPalani1799.github.io/covid",
   "name": "covid",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,8 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "font-awesome": "^4.7.0",
+    "gh-pages": "^3.0.0",
+    "moment": "^2.26.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
@@ -18,6 +21,8 @@
     "reactstrap": "^8.4.1"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
