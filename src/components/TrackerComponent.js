@@ -4,7 +4,7 @@ import { Card, Spinner } from 'reactstrap';
 
 import Status from './StatusComponent';
 import Fade from 'react-reveal/Fade';
-import moment from 'moment';
+
 
 function RenderTable({data}){
     if(data!==null){
@@ -103,7 +103,7 @@ class Tracker extends Component{
     }
 
     componentDidMount(){
-        axios.get('https://api.covid19india.org/data.json')
+        axios.get('http://api.covid19india.org/data.json')
         .then(result=>{
             console.log(result);
             this.setState({data:result.data.statewise,fetched:true});
